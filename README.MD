@@ -19,11 +19,11 @@ pip install -r requirements.txt
 python main.py
 ```
 # Интерфейс
-![interface](./examples/interface.jpg)
+<img src="./examples/interface.jpg" width="800">
 
 # Пример работы
 Исходный файл в "example_video.mp4"
 
 Результат обработки:
 
-![example_result](./examples/example_result.gif)
+<img src="./examples/example_result.gif" height="600">
