@@ -49,7 +49,7 @@ class CustomTracker:
 
 
 # Load model
-yolo_model = torch.hub.load("ultralytics/yolov5", "custom", "yolov5n.onnx", device="cpu")
+yolo_model = torch.hub.load("ultralytics/yolov5", "custom", "models/yolov5n.onnx", device="cpu")
 # classifier_model = ONNXTrafficSignClassifier(
 #     r"TrafficSignRecognition\models\resnet18\traffic_sign_recognition20.onnx",
 #     r"TrafficSignRecognition\models\resnet18\traffic_label_enum.json",
