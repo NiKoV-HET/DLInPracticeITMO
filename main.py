@@ -352,14 +352,20 @@ def process_video(input_video):
 def launch_gradio_interface():
     video_input = gr.components.Video(label="Input video")
     video_output = gr.components.Video(label="Output video")
-    text_output = gr.components.Textbox(label="Results txt")
-    iface = gr.Interface(fn=main, inputs=video_input, outputs=[video_output, text_output], title="SignClassifier")
+    iface = gr.Interface(
+        fn=main,
+        inputs=video_input,
+        outputs=video_output,
+        title="SignClassifier",
+        examples=[["examples\example_video.mp4"]],
+        cache_examples=True,
+    )
     iface.launch()
 
 
 def main(input_video):
     output_filename = process_video(input_video)
-    return output_filename, "Processing Complete"
+    return output_filename
 
 
 if __name__ == "__main__":
