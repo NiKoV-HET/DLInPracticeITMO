@@ -1,0 +1,3 @@
+[submodule "TrafficSignRecognition"]
+	path = TrafficSignRecognition
+	url = https://github.com/LongArya/TrafficSignRecognition

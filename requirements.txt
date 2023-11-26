@@ -1,0 +1,5 @@
+filterpy==1.4.5
+scikit-image==0.22.0
+torch==2.1.1
+gradio==4.5.0
+tqdm==4.66.1
