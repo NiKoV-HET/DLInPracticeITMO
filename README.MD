@@ -19,11 +19,11 @@ pip install -r requirements.txt
 python main.py
 ```
 # Интерфейс
-![interface](examples\interface.jpg)
+![interface](./examples/interface.jpg)
 
 # Пример работы
 Исходный файл в "example_video.mp4"
 
 Результат обработки:
 
-![example_result](examples\example_result.gif)
+![example_result](./examples/example_result.gif)
