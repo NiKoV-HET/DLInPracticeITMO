@@ -283,7 +283,7 @@ def load_preview_signs(signs_h):
         dict: Signs preview
     """
     sign_images = {}
-    path_to_preview_signs = "data\Signs"
+    path_to_preview_signs = "Signs"
     for sign_image_filename in os.listdir(path_to_preview_signs):
         cls_ = sign_image_filename.split(".")[0]
         sign_images[cls_] = preprocessing_preview_sign_image(
