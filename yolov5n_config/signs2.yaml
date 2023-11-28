@@ -1,0 +1,40 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/kaggle/v2  # dataset root dir
+train: train # train images (relative to 'path') 118287 images
+val: val  # val images (relative to 'path') 5000 images
+
+# Classes
+names:
+  1: 1_23
+  2: 1_17
+  3: 1_25
+  4: 1_22
+  5: 2_1
+  6: 2_2
+  7: 2_4
+  8: 2_3_2
+  9: 2_3_3
+  10: 2_5
+  11: 3_24
+  12: 3_4_1
+  13: 3_27
+  14: 3_1
+  15: 3_20
+  16: 3_21
+  17: 4_2_1
+  18: 4_2_3
+  19: 4_1_1
+  20: 4_1_2
+  21: 4_1_4
+  22: 4_2_2
+  23: 5_20
+  24: 5_19_1
+  25: 5_16
+  26: 5_15_5
+  27: 5_6
+  28: 5_5
+  29: 5_15_2_2
+  30: 6_16
+  31: 6_4
+  32: 7_3
+  33: 8_13
