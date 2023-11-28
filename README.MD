@@ -29,4 +29,4 @@ python main.py
 <img src="./examples/example_result.gif" height="600">
 
 
-Ход работ описан в (Progress.MD)[./Progress.MD] 
+Ход работ описан в [Progress.MD](./Progress.MD)
